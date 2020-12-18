@@ -1,0 +1,297 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>2 Unit Setup &mdash; DVG Quick Start Guide .01 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="3 Connectivity Setup" href="connectivity_setup.html" />
+    <link rel="prev" title="1 Introduction" href="introduction.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> DVG Quick Start Guide
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html"><span class="sectnum">1</span> Introduction</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><span class="sectnum">2</span> Unit Setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#port-configuration"><span class="sectnum">2.1</span> Port Configuration</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configuring-the-management-port"><span class="sectnum">2.1.1</span> Configuring the Management Port</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configuring-data-ports"><span class="sectnum">2.1.2</span> Configuring Data Ports</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="connectivity_setup.html"><span class="sectnum">3</span> Connectivity Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stream_setup.html"><span class="sectnum">4</span> Stream Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistics_monitoring.html"><span class="sectnum">5</span> Statistics and Monitoring</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">DVG Quick Start Guide</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="sectnum">2</span> Unit Setup</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/unit_setup.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="unit-setup">
+<h1><span class="sectnum">2</span> Unit Setup<a class="headerlink" href="#unit-setup" title="Permalink to this headline">¶</a></h1>
+<p>To setup a protected stream using two DVGs you will need to connect them to the internet or the simulated
+internet test bench. One DVG will be used as the as the sender/protector and the other will be used as
+the receiver/sentinel.</p>
+<p>To connect the DVG instances to the test setup:</p>
+<ol class="arabic simple">
+<li><p>On the sender side, connect an RJ-45 cable from the source of the stream to physical port #1.</p></li>
+<li><p>On the sender side, connect an RJ-45 cable from physical port #2 to the router.</p></li>
+<li><p>On the sender side, connect an RJ-45 cable from from the physical port Mgmt to the management switch.</p></li>
+<li><p>On the receiver side, connect an RJ-45 cable from physical port #1 to the decoder.</p></li>
+<li><p>On the receiver side, connect an RJ-45 cable from physical port #2 to the router.</p></li>
+<li><p>On the receiver side, connect an RJ-45 cable from from the physical port Mgmt to the management switch.</p></li>
+<li><p>Connect an RJ-45 cable from the management switch to the management PC.</p></li>
+</ol>
+<p>The following diagram shows how to connect the physical interfaces to the routers or the internet test bench.</p>
+<div class="section" id="port-configuration">
+<h2><span class="sectnum">2.1</span> Port Configuration<a class="headerlink" href="#port-configuration" title="Permalink to this headline">¶</a></h2>
+<p>After the devices have been connected physically, the ports will need to be configured.</p>
+<div class="section" id="configuring-the-management-port">
+<h3><span class="sectnum">2.1.1</span> Configuring the Management Port<a class="headerlink" href="#configuring-the-management-port" title="Permalink to this headline">¶</a></h3>
+<p>The management port is used to access the management user interface.</p>
+<p><strong>Procedure</strong></p>
+<ol class="arabic simple">
+<li><p>Access the DVG through the default address <a class="reference external" href="http:/">http:/</a>/&lt;ip_address&gt;.</p></li>
+<li><p>Log in to the device using the userid/pass admin/admin.</p></li>
+<li><p>Click the edit private menu.</p></li>
+<li><p>Click the Configuration tab.</p></li>
+<li><p>In the configuration tree, navigate to System &gt; Management &gt; Management_IP.</p></li>
+<li><p>Click on the Set-If leaf.</p></li>
+<li><p>In the Ip Address field, enter a management IP address.</p></li>
+<li><p>In the subnet mask field, enter a subnet mask or leave the default.</p></li>
+<li><p>In the Gateway field, enter a gateway address. (optional)</p></li>
+<li><p>Click Perform to save the address.</p></li>
+<li><p>The machine will need to be rebooted for the address to be saved.</p></li>
+</ol>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<blockquote>
+<div><p><em>Repeat the above procedure on the second DVG unit.</em>.</p>
+</div></blockquote>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+</div>
+<div class="section" id="configuring-data-ports">
+<h3><span class="sectnum">2.1.2</span> Configuring Data Ports<a class="headerlink" href="#configuring-data-ports" title="Permalink to this headline">¶</a></h3>
+<p>The DVG units will connect to the internet and to either an encoder or a decoder
+using the physical interfaces of the unit. Physical interfaces are configured using the
+quick configure icons. <strong>Configure the interfaces on both DVG units using the procedures in this section.</strong></p>
+<p><strong>Procedure</strong></p>
+<ol class="arabic simple">
+<li><p>Click the <a class="reference internal" href="_images/networkConfig.png"><img alt="nc" src="_images/networkConfig.png" style="width: 10.88px; height: 10.88px;" /></a> icon to open the Add/Edit Ethernet Port configuration window.</p></li>
+</ol>
+<a class="reference internal image-reference" href="_images/Add-edit_eth_port.bmp"><img alt="_images/Add-edit_eth_port.bmp" class="align-left" src="_images/Add-edit_eth_port.bmp" style="width: 400.0px; height: 434.5px;" /></a>
+<ol class="arabic simple" start="2">
+<li><p>In the Port Number pane, select a port number.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Each port number corresponds to a physical interface.
+Port numbers that is greater than the number of physical interfaces on the unit cannot be added.</p>
+</div>
+<ol class="arabic simple" start="3">
+<li><p>In the Port Name pane, enter a name for the port.</p></li>
+<li><p>in the IP Address field, enter an IP address.</p></li>
+<li><p>In the Subnet Mask pane, enter a subnet mask.</p></li>
+<li><p>In the Default Gateway pane, enter a default gateway (optional).</p></li>
+<li><p>In the Gateway Priority pane, select a value from the drop-down list.</p></li>
+<li><p>Click Send to save the configuration.</p></li>
+</ol>
+<p><em>Repeat this procedure for all the required interfaces.</em></p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="connectivity_setup.html" class="btn btn-neutral float-right" title="3 Connectivity Setup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="introduction.html" class="btn btn-neutral float-left" title="1 Introduction" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Jason Novich
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

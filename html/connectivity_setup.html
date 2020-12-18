@@ -1,0 +1,281 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>3 Connectivity Setup &mdash; DVG Quick Start Guide .01 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+  
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="4 Stream Setup" href="stream_setup.html" />
+    <link rel="prev" title="2 Unit Setup" href="unit_setup.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home" alt="Documentation Home"> DVG Quick Start Guide
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Table of Contents</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="introduction.html"><span class="sectnum">1</span> Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="unit_setup.html"><span class="sectnum">2</span> Unit Setup</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#"><span class="sectnum">3</span> Connectivity Setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-udp-vpn"><span class="sectnum">3.1</span> Configuring UDP VPN</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configuring-the-udp-vpn-server"><span class="sectnum">3.1.1</span> Configuring the UDP VPN Server</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#building-the-udp-vpn-client-files"><span class="sectnum">3.1.2</span> Building the UDP VPN Client Files</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#uploading-the-udp-vpn-client"><span class="sectnum">3.1.3</span> Uploading the UDP VPN Client</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="stream_setup.html"><span class="sectnum">4</span> Stream Setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="statistics_monitoring.html"><span class="sectnum">5</span> Statistics and Monitoring</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">DVG Quick Start Guide</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="sectnum">3</span> Connectivity Setup</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/connectivity_setup.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="connectivity-setup">
+<h1><span class="sectnum">3</span> Connectivity Setup<a class="headerlink" href="#connectivity-setup" title="Permalink to this headline">¶</a></h1>
+<p>After the DVG units physical interfaces have been configured, it is necessary to connect the DVGs to each other.
+In order to ensure that multicast streams will be routed over the internet a VPN will be used.</p>
+<div class="section" id="configuring-udp-vpn">
+<h2><span class="sectnum">3.1</span> Configuring UDP VPN<a class="headerlink" href="#configuring-udp-vpn" title="Permalink to this headline">¶</a></h2>
+<p>The UDP VPN connection is made up of a client and a server.
+The client and server are independent from the sender and the receiver.</p>
+<div class="section" id="configuring-the-udp-vpn-server">
+<h3><span class="sectnum">3.1.1</span> Configuring the UDP VPN Server<a class="headerlink" href="#configuring-the-udp-vpn-server" title="Permalink to this headline">¶</a></h3>
+<p>The UDP VPN Server is used to host client connections.</p>
+<p><strong>Procedure</strong></p>
+<ol class="arabic">
+<li><p>Click on the <a class="reference internal" href="_images/vpnAdd.png"><img alt="addVPN" src="_images/vpnAdd.png" style="width: 10.88px; height: 10.88px;" /></a> icon to open the Add VPN configuration window.</p>
+<a class="reference internal image-reference" href="_images/add_udp_vpn.bmp"><img alt="_images/add_udp_vpn.bmp" src="_images/add_udp_vpn.bmp" style="width: 400.5px; height: 372.5px;" /></a>
+</li>
+<li><p>In the Operation Mode pane, select UDP-VPN Server from the drop-down list.</p></li>
+<li><p>In the Name pane, enter a name.</p></li>
+<li><p>In the IP Address field enter an IP address for the server.</p></li>
+<li><p>In the URL pane, enter a URL for the server.</p></li>
+<li><p>In the interface pane, select from the drop-down list the interface with the configured the internet connection.</p></li>
+<li><p>Click Send to save the configuration.</p>
+<p>After the server has been configured, the UDP VPN client files need to be built.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="building-the-udp-vpn-client-files">
+<h3><span class="sectnum">3.1.2</span> Building the UDP VPN Client Files<a class="headerlink" href="#building-the-udp-vpn-client-files" title="Permalink to this headline">¶</a></h3>
+<p>The UDP VPN client files are needed to connect to the UDP VPN server. The client files are built on the server and then
+uploaded to the unit that will be the client.</p>
+<p><strong>Procedure</strong></p>
+<ol class="arabic simple">
+<li><p>Click the Tools tab, then click the File Operations menu, then click the UDP VPN menu, then click on the download menu item.</p></li>
+<li><p>On the Remote Client line, select the name of the server from the drop-down menu.</p></li>
+<li><p>Click download to download the client files.</p></li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Client files need to be saved on the management PC, or on a disk on key, in order to upload them on the client unit.</p>
+</div>
+</div>
+<div class="section" id="uploading-the-udp-vpn-client">
+<h3><span class="sectnum">3.1.3</span> Uploading the UDP VPN Client<a class="headerlink" href="#uploading-the-udp-vpn-client" title="Permalink to this headline">¶</a></h3>
+<p>The UDP VPN client file needs to be uploaded to the client DVG unit. Then it needs to be activated.</p>
+<p><strong>Procedure</strong></p>
+<ol class="arabic">
+<li><p>Click the <a class="reference internal" href="_images/vpnAdd.png"><img alt="addVPN" src="_images/vpnAdd.png" style="width: 10.88px; height: 10.88px;" /></a> icon to open the Add VPN configuration window.</p>
+<a class="reference internal image-reference" href="_images/add_udp_vpn_client-1.bmp"><img alt="_images/add_udp_vpn_client-1.bmp" class="align-left" src="_images/add_udp_vpn_client-1.bmp" style="width: 997.6500000000001px; height: 720.9000000000001px;" /></a>
+</li>
+<li><p>In the In the Operation Mode pane, select Client form the drop-down list.</p></li>
+<li><p>In the Upload client pane, select a client file by clicking the Choose File button. Navigate to the location of the saved file, then select it and click open.</p></li>
+<li><p>Click Upload to upload the client file.</p></li>
+<li><p>In the VPN name field, enter a logical name for the VPN.</p></li>
+<li><p>In the Bind to Interface field, from the drop-down list select the physical interface the client will use to connect to the server.</p></li>
+<li><p>Click the Click Here link to activate the client file.</p></li>
+</ol>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="stream_setup.html" class="btn btn-neutral float-right" title="4 Stream Setup" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="unit_setup.html" class="btn btn-neutral float-left" title="2 Unit Setup" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        
+        &copy; Copyright 2020, Jason Novich
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

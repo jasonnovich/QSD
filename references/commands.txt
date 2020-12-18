@@ -1,0 +1,2 @@
+sphinx-build -b pdf ..\src ..\pdf
+sphinx-build -b html ..\src ..\html

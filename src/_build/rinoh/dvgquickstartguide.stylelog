@@ -1,0 +1,1861 @@
+---------------------------------- page 1 ----------------------------------
+#### DownExpandingContainer('title')
+  StaticGroupedFlowables()
+    Paragraph('DVG Quick Start Guide', style='title page title')
+         > (0,0,1,0,2) title page title
+           (0,0,0,0,2) body
+      SingleStyledText('DVG Quick Start Guide')
+    Paragraph('Release .01', style='title page subtitle')
+         > (0,0,1,0,2) title page subtitle
+           (0,0,0,0,2) body
+      SingleStyledText('Release .01')
+    Paragraph('Jason Novich', style='title page author')
+         > (0,0,1,0,2) title page author
+           (0,0,0,0,2) body
+      SingleStyledText('Jason Novich')
+    Paragraph('Dec 18, 2020', style='title page date')
+         > (0,0,1,0,2) title page date
+           (0,0,0,0,2) body
+      SingleStyledText('Dec 18, 2020')
+---------------------------------- page i ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Table of Contents', style='front matter section title')
+       > (0,0,1,0,2) front matter section title
+         (0,0,0,0,2) body
+    Field('Table of Contents')
+      SingleStyledText('Table of Contents')
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    TableOfContentsSection(style='table of contents')
+         > (0,0,1,0,1) table of contents section
+           (0,0,0,1,1) chapter
+      TableOfContents()   table of contents
+           > (0,0,0,0,2) table of contents
+        TableOfContentsEntry('1	Introduction	1')
+             > (0,0,0,1,2) toc level 1
+            MixedStyledText('1	Introduction	1')
+              ReferenceField('1')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('1')
+              Tab('	')
+              ReferenceField('Introduction')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Introduction')
+              Tab('	')
+              ReferenceField('1')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('1')
+        TableOfContentsEntry('1.1	Scope	1')
+             > (0,0,0,1,2) toc level 2
+            MixedStyledText('1.1	Scope	1')
+              ReferenceField('1.1')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('1.1')
+              Tab('	')
+              ReferenceField('Scope')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Scope')
+              Tab('	')
+              ReferenceField('1')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('1')
+        TableOfContentsEntry('1.2	Getting Started	1')
+             > (0,0,0,1,2) toc level 2
+            MixedStyledText('1.2	Getting Started	1')
+              ReferenceField('1.2')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('1.2')
+              Tab('	')
+              ReferenceField('Getting Started')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Getting Started')
+              Tab('	')
+              ReferenceField('1')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('1')
+        TableOfContentsEntry('2	Unit Setup	3')
+             > (0,0,0,1,2) toc level 1
+            MixedStyledText('2	Unit Setup	3')
+              ReferenceField('2')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('2')
+              Tab('	')
+              ReferenceField('Unit Setup')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Unit Setup')
+              Tab('	')
+              ReferenceField('3')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('3')
+        TableOfContentsEntry('2.1	Port Configuration	3')
+             > (0,0,0,1,2) toc level 2
+            MixedStyledText('2.1	Port Configuration	3')
+              ReferenceField('2.1')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('2.1')
+              Tab('	')
+              ReferenceField('Port Configuration')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Port Configuration')
+              Tab('	')
+              ReferenceField('3')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('3')
+        TableOfContentsEntry('3	Connectivity Setup	7')
+             > (0,0,0,1,2) toc level 1
+            MixedStyledText('3	Connectivity Setup	7')
+              ReferenceField('3')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('3')
+              Tab('	')
+              ReferenceField('Connectivity Setup')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Connectivity Setup')
+              Tab('	')
+              ReferenceField('7')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('7')
+        TableOfContentsEntry('3.1	Configuring UDP VPN	7')
+             > (0,0,0,1,2) toc level 2
+            MixedStyledText('3.1	Configuring UDP VPN	7')
+              ReferenceField('3.1')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('3.1')
+              Tab('	')
+              ReferenceField('Configuring UDP VPN')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Configuring UDP VPN')
+              Tab('	')
+              ReferenceField('7')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('7')
+        TableOfContentsEntry('4	Stream Setup	11')
+             > (0,0,0,1,2) toc level 1
+            MixedStyledText('4	Stream Setup	11')
+              ReferenceField('4')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('4')
+              Tab('	')
+              ReferenceField('Stream Setup')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Stream Setup')
+              Tab('	')
+              ReferenceField('11')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('11')
+        TableOfContentsEntry('5	Statistics and Monitoring	13')
+             > (0,0,0,1,2) toc level 1
+            MixedStyledText('5	Statistics and Monitoring	13')
+              ReferenceField('5')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('5')
+              Tab('	')
+              ReferenceField('Statistics and Monitoring')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('Statistics and Monitoring')
+              Tab('	')
+              ReferenceField('13')
+                   x (0,0,0,1,3) toc linked reference
+                   > (0,0,0,1,1) linked reference
+                SingleStyledText('13')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		i')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('		i')
+        Tab('	')
+        Tab('	')
+        Field('i')
+          SingleStyledText('i')
+---------------------------------- page 1 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 1', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('Chapter 1')
+      MixedStyledText('Chapter ')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+      Field('1', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('1')
+  Paragraph('Introduction', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title
+         (0,0,0,0,2) body
+    Field('Introduction')
+      SingleStyledText('Introduction')
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    DocumentTree()
+      StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        StaticGroupedFlowables(id='%introduction')   None:None <start_of_file>
+          Section(id='%introduction#introduction')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:5 <section>
+               > (0,0,0,1,2) chapter
+            Section(id='%introduction#scope')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:8 <section>
+              Heading('1.1 Scope')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:8 <title>
+                   > (0,0,0,1,2) heading level 2
+                     (0,0,0,0,2) other heading levels
+                  MixedStyledText('1.1 Scope')
+                    SingleStyledText('1.1')
+                    SingleStyledText(' ')
+                    SingleStyledText('Scope')
+              Paragraph('The DVG Quick Start Guide is des...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:9 <paragraph>
+                   > (0,0,0,0,2) body
+                MixedStyledText('The DVG Quick Start Guide is des...')
+                  SingleStyledText('The DVG Quick Start Guide is des...')
+            Section(id='%introduction#getting-started')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:12 <section>
+              Heading('1.2 Getting Started')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:12 <title>
+                   > (0,0,0,1,2) heading level 2
+                     (0,0,0,0,2) other heading levels
+                  MixedStyledText('1.2 Getting Started')
+                    SingleStyledText('1.2')
+                    SingleStyledText(' ')
+                    SingleStyledText('Getting Started')
+              Paragraph('The quick start guide assumes th...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:13 <paragraph>
+                   > (0,0,0,0,2) body
+                MixedStyledText('The quick start guide assumes th...')
+                  SingleStyledText('The quick start guide assumes th...')
+              List(style='bulleted')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:15 <bullet_list>
+                   > (0,0,1,0,2) bulleted list
+                ListItem()
+                     x (0,0,1,0,4) bulleted list item
+                     > fallback to default style
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label
+                         (0,0,0,0,2) list item label
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:None <list_item>
+                       > (0,0,0,0,3) list item body
+                    Paragraph('Two licensed DVG software instan...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:15 <paragraph>
+                         > (0,0,0,0,5) list item paragraph
+                           (0,0,0,0,2) body
+                      MixedStyledText('Two licensed DVG software instan...')
+                        SingleStyledText('Two licensed DVG software instan...')
+                ListItem()
+                     x (0,0,1,0,4) bulleted list item
+                     > fallback to default style
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label
+                         (0,0,0,0,2) list item label
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:None <list_item>
+                       > (0,0,0,0,3) list item body
+                    Paragraph('2 Internet connections or a simu...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:16 <paragraph>
+                         > (0,0,0,0,5) list item paragraph
+                           (0,0,0,0,2) body
+                      MixedStyledText('2 Internet connections or a simu...')
+                        SingleStyledText('2 Internet connections or a simu...')
+                ListItem()
+                     x (0,0,1,0,4) bulleted list item
+                     > fallback to default style
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label
+                         (0,0,0,0,2) list item label
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:None <list_item>
+                       > (0,0,0,0,3) list item body
+                    Paragraph('A PC connected to a network swit...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:17 <paragraph>
+                         > (0,0,0,0,5) list item paragraph
+                           (0,0,0,0,2) body
+                      MixedStyledText('A PC connected to a network swit...')
+                        SingleStyledText('A PC connected to a network swit...')
+                ListItem()
+                     x (0,0,1,0,4) bulleted list item
+                     > fallback to default style
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label
+                         (0,0,0,0,2) list item label
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:None <list_item>
+                       > (0,0,0,0,3) list item body
+                    Paragraph('A IP encoder (optional)')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:18 <paragraph>
+                         > (0,0,0,0,5) list item paragraph
+                           (0,0,0,0,2) body
+                      MixedStyledText('A IP encoder (optional)')
+                        SingleStyledText('A IP encoder (optional)')
+                ListItem()
+                     x (0,0,1,0,4) bulleted list item
+                     > fallback to default style
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label
+                         (0,0,0,0,2) list item label
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()   None:None <list_item>
+                       > (0,0,0,0,3) list item body
+                    DefinitionList()   None:None <definition_list>
+                         > (0,0,0,0,2) definition list
+                      LabeledFlowable()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:20 <definition_list_item>
+                           > (0,0,0,0,4) definition list item
+                        StaticGroupedFlowables(style='definition term')
+                             > (0,0,1,0,5) definition term
+                          Paragraph('An IP decoder')
+                               > (0,0,1,0,7) definition term paragraph
+                                 (0,0,0,0,2) body
+                            MixedStyledText('An IP decoder')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:20 <term>
+                              SingleStyledText('An IP decoder')
+                        StaticGroupedFlowables(style='definition')   None:None <definition>
+                             > (0,0,1,0,5) definition
+                          List(style='bulleted')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:20 <bullet_list>
+                               > (0,0,1,0,2) bulleted list
+                            ListItem()
+                                 x (0,0,1,0,4) bulleted list item
+                                 > fallback to default style
+                              ListItemLabel('•')
+                                   > (0,0,1,0,6) bulleted list item label
+                                     (0,0,0,0,2) list item label
+                                  MixedStyledText('•')
+                                    SingleStyledText('')
+                                    SingleStyledText('•')
+                                    SingleStyledText('')
+                              StaticGroupedFlowables()   None:None <list_item>
+                                   > (0,0,0,0,3) list item body
+                                Paragraph('A PC with IP stream decoding sof...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:20 <paragraph>
+                                     > (0,0,0,0,5) list item paragraph
+                                       (0,0,0,0,2) body
+                                  MixedStyledText('A PC with IP stream decoding sof...')
+                                    SingleStyledText('A PC with IP stream decoding sof...')
+                            ListItem()
+                                 x (0,0,1,0,4) bulleted list item
+                                 > fallback to default style
+                              ListItemLabel('•')
+                                   > (0,0,1,0,6) bulleted list item label
+                                     (0,0,0,0,2) list item label
+                                  MixedStyledText('•')
+                                    SingleStyledText('')
+                                    SingleStyledText('•')
+                                    SingleStyledText('')
+                              StaticGroupedFlowables()   None:None <list_item>
+                                   > (0,0,0,0,3) list item body
+                                Paragraph('A dedicated IP decoder box and v...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:21 <paragraph>
+                                     > (0,0,0,0,5) list item paragraph
+                                       (0,0,0,0,2) body
+                                  MixedStyledText('A dedicated IP decoder box and v...')
+                                    SingleStyledText('A dedicated IP decoder box and v...')
+                ListItem()
+                     x (0,0,1,0,4) bulleted list item
+                     > fallback to default style
+                  ListItemLabel('•')
+                       > (0,0,1,0,6) bulleted list item label
+                         (0,0,0,0,2) list item label
+                      MixedStyledText('•')
+                        SingleStyledText('')
+                        SingleStyledText('•')
+                        SingleStyledText('')
+                  StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:None <list_item>
+                       > (0,0,0,0,3) list item body
+                    Paragraph('RJ-45 cables')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:22 <paragraph>
+                         > (0,0,0,0,5) list item paragraph
+                           (0,0,0,0,2) body
+                      MixedStyledText('RJ-45 cables')
+                        SingleStyledText('RJ-45 cables')
+              Admonition()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\introduction.rst:None <note>
+                   > (0,0,0,1,2) note admonition
+                     (0,0,0,0,2) admonition
+                Paragraph('Note This quick start guide assu...')
+                     > (0,0,0,0,2) body
+                  MixedStyledText('Note This quick start guide assu...')
+                    MixedStyledText('Note', style='inline title')
+                         x (0,0,1,1,3) note admonition inline title
+                         > (0,0,1,0,3) admonition inline title
+                      SingleStyledText('Note')
+                    SingleStyledText(' ')
+                    MixedStyledText('This quick start guide assumes t...')
+                      SingleStyledText('This quick start guide assumes t...')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		1')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('		1')
+        Tab('	')
+        Tab('	')
+        Field('1')
+          SingleStyledText('1')
+---------------------------------- page 2 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('DVG Quick Start Guide, Release ....')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('DVG Quick Start Guide, Release ....')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('2		Chapter 1.  Introduction')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('2		Chapter 1.  Introduction')
+        Field('2')
+          SingleStyledText('2')
+        Tab('	')
+        Tab('	')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+        Field('1')
+          SingleStyledText('1')
+        SingleStyledText('.  ')
+        Field('Introduction')
+          SingleStyledText('Introduction')
+---------------------------------- page 3 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 2', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('Chapter 2')
+      MixedStyledText('Chapter ')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+      Field('2', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('2')
+  Paragraph('Unit Setup', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title
+         (0,0,0,0,2) body
+    Field('Unit Setup')
+      SingleStyledText('Unit Setup')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        StaticGroupedFlowables(id='%unit_setup')   None:None <start_of_file>
+          Section(id='%unit_setup#unit-setup')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:7 <section>
+               > (0,0,0,1,2) chapter
+            Paragraph('To setup a protected stream usin...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:8 <paragraph>
+                 > (0,0,0,0,2) body
+              MixedStyledText('To setup a protected stream usin...')
+                SingleStyledText('To setup a protected stream usin...')
+            Paragraph('To connect the DVG instances to ...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:12 <paragraph>
+                 > (0,0,0,0,2) body
+              MixedStyledText('To connect the DVG instances to ...')
+                SingleStyledText('To connect the DVG instances to ...')
+            List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:14 <enumerated_list>
+                 > (0,0,1,0,2) enumerated list
+              ListItem()
+                   x (0,0,1,0,4) enumerated list item
+                   > fallback to default style
+                ListItemLabel('1.')
+                     > (0,0,1,0,6) enumerated list item label
+                       (0,0,0,0,2) list item label
+                    MixedStyledText('1.')
+                      SingleStyledText('1')
+                      SingleStyledText('.')
+                StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                     > (0,0,0,0,3) list item body
+                  Paragraph('On the sender side, connect an R...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:14 <paragraph>
+                       > (0,0,0,0,5) list item paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('On the sender side, connect an R...')
+                      SingleStyledText('On the sender side, connect an R...')
+              ListItem()
+                   x (0,0,1,0,4) enumerated list item
+                   > fallback to default style
+                ListItemLabel('2.')
+                     > (0,0,1,0,6) enumerated list item label
+                       (0,0,0,0,2) list item label
+                    MixedStyledText('2.')
+                      SingleStyledText('2')
+                      SingleStyledText('.')
+                StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                     > (0,0,0,0,3) list item body
+                  Paragraph('On the sender side, connect an R...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:15 <paragraph>
+                       > (0,0,0,0,5) list item paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('On the sender side, connect an R...')
+                      SingleStyledText('On the sender side, connect an R...')
+              ListItem()
+                   x (0,0,1,0,4) enumerated list item
+                   > fallback to default style
+                ListItemLabel('3.')
+                     > (0,0,1,0,6) enumerated list item label
+                       (0,0,0,0,2) list item label
+                    MixedStyledText('3.')
+                      SingleStyledText('3')
+                      SingleStyledText('.')
+                StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                     > (0,0,0,0,3) list item body
+                  Paragraph('On the sender side, connect an R...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:16 <paragraph>
+                       > (0,0,0,0,5) list item paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('On the sender side, connect an R...')
+                      SingleStyledText('On the sender side, connect an R...')
+              ListItem()
+                   x (0,0,1,0,4) enumerated list item
+                   > fallback to default style
+                ListItemLabel('4.')
+                     > (0,0,1,0,6) enumerated list item label
+                       (0,0,0,0,2) list item label
+                    MixedStyledText('4.')
+                      SingleStyledText('4')
+                      SingleStyledText('.')
+                StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                     > (0,0,0,0,3) list item body
+                  Paragraph('On the receiver side, connect an...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:17 <paragraph>
+                       > (0,0,0,0,5) list item paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('On the receiver side, connect an...')
+                      SingleStyledText('On the receiver side, connect an...')
+              ListItem()
+                   x (0,0,1,0,4) enumerated list item
+                   > fallback to default style
+                ListItemLabel('5.')
+                     > (0,0,1,0,6) enumerated list item label
+                       (0,0,0,0,2) list item label
+                    MixedStyledText('5.')
+                      SingleStyledText('5')
+                      SingleStyledText('.')
+                StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                     > (0,0,0,0,3) list item body
+                  Paragraph('On the receiver side, connect an...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:18 <paragraph>
+                       > (0,0,0,0,5) list item paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('On the receiver side, connect an...')
+                      SingleStyledText('On the receiver side, connect an...')
+              ListItem()
+                   x (0,0,1,0,4) enumerated list item
+                   > fallback to default style
+                ListItemLabel('6.')
+                     > (0,0,1,0,6) enumerated list item label
+                       (0,0,0,0,2) list item label
+                    MixedStyledText('6.')
+                      SingleStyledText('6')
+                      SingleStyledText('.')
+                StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                     > (0,0,0,0,3) list item body
+                  Paragraph('On the receiver side, connect an...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:19 <paragraph>
+                       > (0,0,0,0,5) list item paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('On the receiver side, connect an...')
+                      SingleStyledText('On the receiver side, connect an...')
+              ListItem()
+                   x (0,0,1,0,4) enumerated list item
+                   > fallback to default style
+                ListItemLabel('7.')
+                     > (0,0,1,0,6) enumerated list item label
+                       (0,0,0,0,2) list item label
+                    MixedStyledText('7.')
+                      SingleStyledText('7')
+                      SingleStyledText('.')
+                StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                     > (0,0,0,0,3) list item body
+                  Paragraph('Connect an RJ-45 cable from the ...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:20 <paragraph>
+                       > (0,0,0,0,5) list item paragraph
+                         (0,0,0,0,2) body
+                    MixedStyledText('Connect an RJ-45 cable from the ...')
+                      SingleStyledText('Connect an RJ-45 cable from the ...')
+            Paragraph('The following diagram shows how ...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:22 <paragraph>
+                 > (0,0,0,0,2) body
+              MixedStyledText('The following diagram shows how ...')
+                SingleStyledText('The following diagram shows how ...')
+            Section(id='%unit_setup#port-configuration')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:25 <section>
+              Heading('2.1 Port Configuration')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:25 <title>
+                   > (0,0,0,1,2) heading level 2
+                     (0,0,0,0,2) other heading levels
+                  MixedStyledText('2.1 Port Configuration')
+                    SingleStyledText('2.1')
+                    SingleStyledText(' ')
+                    SingleStyledText('Port Configuration')
+              Paragraph('After the devices have been conn...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:26 <paragraph>
+                   > (0,0,0,0,2) body
+                MixedStyledText('After the devices have been conn...')
+                  SingleStyledText('After the devices have been conn...')
+              Section(id='%unit_setup#configuring-the-management-port')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:29 <section>
+                Heading('2.1.1 Configuring the Management...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:29 <title>
+                     > (0,0,0,1,2) heading level 3
+                       (0,0,0,0,2) other heading levels
+                    MixedStyledText('2.1.1 Configuring the Management...')
+                      SingleStyledText('2.1.1')
+                      SingleStyledText(' ')
+                      SingleStyledText('Configuring the Management Port')
+                Paragraph('The management port is used to a...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:30 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('The management port is used to a...')
+                    SingleStyledText('The management port is used to a...')
+                Paragraph('Procedure')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:32 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('Procedure')
+                    MixedStyledText('Procedure', style='strong')   None:None <strong>
+                         > (0,0,1,0,1) strong
+                      SingleStyledText('Procedure')
+                List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:34 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Access the DVG through the defau...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:34 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Access the DVG through the defau...')
+                          SingleStyledText('Access the DVG through the defau...')
+                          AnnotatedText('http:/', style='external link')   None:None <reference>
+                               > (0,0,1,0,1) external hyperlink
+                            MixedStyledText('http:/')
+                              SingleStyledText('http:/')
+                          SingleStyledText('/<ip_address>.')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('2.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('2.')
+                          SingleStyledText('2')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Log in to the device using the u...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:35 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Log in to the device using the u...')
+                          SingleStyledText('Log in to the device using the u...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('3.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('3.')
+                          SingleStyledText('3')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click the edit private menu.')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:36 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click the edit private menu.')
+                          SingleStyledText('Click the edit private menu.')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('4.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('4.')
+                          SingleStyledText('4')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click the Configuration tab.')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:37 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click the Configuration tab.')
+                          SingleStyledText('Click the Configuration tab.')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('5.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('5.')
+                          SingleStyledText('5')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the configuration tree, navig...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:38 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the configuration tree, navig...')
+                          SingleStyledText('In the configuration tree, navig...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('6.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('6.')
+                          SingleStyledText('6')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click on the Set-If leaf.')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:39 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click on the Set-If leaf.')
+                          SingleStyledText('Click on the Set-If leaf.')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		3')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('		3')
+        Tab('	')
+        Tab('	')
+        Field('3')
+          SingleStyledText('3')
+---------------------------------- page 4 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        (continued) StaticGroupedFlowables(id='%unit_setup')   None:None <start_of_file>
+          (continued) Section(id='%unit_setup#unit-setup')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:7 <section>
+               > (0,0,0,1,2) chapter
+            (continued) Section(id='%unit_setup#port-configuration')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:25 <section>
+              (continued) Section(id='%unit_setup#configuring-the-management-port')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:29 <section>
+                (continued) List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:34 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('7.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('7.')
+                          SingleStyledText('7')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Ip Address field, enter a...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:40 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Ip Address field, enter a...')
+                          SingleStyledText('In the Ip Address field, enter a...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('8.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('8.')
+                          SingleStyledText('8')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the subnet mask field, enter ...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:41 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the subnet mask field, enter ...')
+                          SingleStyledText('In the subnet mask field, enter ...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('9.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('9.')
+                          SingleStyledText('9')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Gateway field, enter a ga...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:42 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Gateway field, enter a ga...')
+                          SingleStyledText('In the Gateway field, enter a ga...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('10.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('10.')
+                          SingleStyledText('10')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click Perform to save the addres...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:43 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click Perform to save the addres...')
+                          SingleStyledText('Click Perform to save the addres...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('11.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('11.')
+                          SingleStyledText('11')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('The machine will need to be rebo...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:44 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('The machine will need to be rebo...')
+                          SingleStyledText('The machine will need to be rebo...')
+                Paragraph('', style='line block')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:46 <line_block>
+                     > (0,0,1,0,2) line block
+                       (0,0,0,0,2) body
+                  MixedStyledText('')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:0 <line>
+                StaticGroupedFlowables(style='block quote')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <block_quote>
+                     > (0,0,1,0,1) block quote
+                  Paragraph('Repeat the above procedure on th...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:48 <paragraph>
+                       > (0,0,0,0,2) body
+                    MixedStyledText('Repeat the above procedure on th...')
+                      MixedStyledText('Repeat the above procedure on th...', style='emphasis')   None:None <emphasis>
+                           > (0,0,1,0,1) emphasis
+                        SingleStyledText('Repeat the above procedure on th...')
+                      SingleStyledText('.')
+                Paragraph('', style='line block')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:50 <line_block>
+                     > (0,0,1,0,2) line block
+                       (0,0,0,0,2) body
+                  MixedStyledText('')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:0 <line>
+              Section(id='%unit_setup#configuring-data-ports')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:53 <section>
+                Heading('2.1.2 Configuring Data Ports')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:53 <title>
+                     > (0,0,0,1,2) heading level 3
+                       (0,0,0,0,2) other heading levels
+                    MixedStyledText('2.1.2 Configuring Data Ports')
+                      SingleStyledText('2.1.2')
+                      SingleStyledText(' ')
+                      SingleStyledText('Configuring Data Ports')
+                Paragraph('The DVG units will connect to th...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:54 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('The DVG units will connect to th...')
+                    SingleStyledText('The DVG units will connect to th...')
+                    MixedStyledText('Configure the interfaces on both...', style='strong')   None:None <strong>
+                         > (0,0,1,0,1) strong
+                      SingleStyledText('Configure the interfaces on both...')
+                Paragraph('Procedure')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:58 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('Procedure')
+                    MixedStyledText('Procedure', style='strong')   None:None <strong>
+                         > (0,0,1,0,1) strong
+                      SingleStyledText('Procedure')
+                List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:60 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click the InlineImage icon to op...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:60 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                          InlineImage('_images/networkConfig.png')   substitutions.rst:1 <image>
+                               x (0,0,0,0,2) inline image
+                               > fallback to default style
+                        MixedStyledText('Click the InlineImage icon to op...')
+                          SingleStyledText('Click the ')
+                          InlineImage('_images/networkConfig.png')   substitutions.rst:1 <image>
+                               x (0,0,0,0,2) inline image
+                               > fallback to default style
+                          SingleStyledText(' icon to open the Add/Edit Ether...')
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('DVG Quick Start Guide, Release ....')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('DVG Quick Start Guide, Release ....')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('4		Chapter 2.  Unit Setup')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('4		Chapter 2.  Unit Setup')
+        Field('4')
+          SingleStyledText('4')
+        Tab('	')
+        Tab('	')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+        Field('2')
+          SingleStyledText('2')
+        SingleStyledText('.  ')
+        Field('Unit Setup')
+          SingleStyledText('Unit Setup')
+---------------------------------- page 5 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        (continued) StaticGroupedFlowables(id='%unit_setup')   None:None <start_of_file>
+          (continued) Section(id='%unit_setup#unit-setup')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:7 <section>
+               > (0,0,0,1,2) chapter
+            (continued) Section(id='%unit_setup#port-configuration')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:25 <section>
+              (continued) Section(id='%unit_setup#configuring-data-ports')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:53 <section>
+                Image('_images/Add-edit_eth_port.bmp')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <image>
+                     > (0,0,0,0,2) image
+                List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:66 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Port Number pane, select ...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:66 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Port Number pane, select ...')
+                          SingleStyledText('In the Port Number pane, select ...')
+                Admonition()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <note>
+                     > (0,0,0,1,2) note admonition
+                       (0,0,0,0,2) admonition
+                  Paragraph('Note Each port number correspond...')
+                       > (0,0,0,0,2) body
+                    MixedStyledText('Note Each port number correspond...')
+                      MixedStyledText('Note', style='inline title')
+                           x (0,0,1,1,3) note admonition inline title
+                           > (0,0,1,0,3) admonition inline title
+                        SingleStyledText('Note')
+                      SingleStyledText(' ')
+                      MixedStyledText('Each port number corresponds to ...')
+                        SingleStyledText('Each port number corresponds to ...')
+                List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:72 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Port Name pane, enter a n...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:72 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Port Name pane, enter a n...')
+                          SingleStyledText('In the Port Name pane, enter a n...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('2.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('2.')
+                          SingleStyledText('2')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('in the IP Address field, enter a...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:73 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('in the IP Address field, enter a...')
+                          SingleStyledText('in the IP Address field, enter a...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('3.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('3.')
+                          SingleStyledText('3')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Subnet Mask pane, enter a...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:74 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Subnet Mask pane, enter a...')
+                          SingleStyledText('In the Subnet Mask pane, enter a...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('4.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('4.')
+                          SingleStyledText('4')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Default Gateway pane, ent...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:75 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Default Gateway pane, ent...')
+                          SingleStyledText('In the Default Gateway pane, ent...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('5.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('5.')
+                          SingleStyledText('5')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Gateway Priority pane, se...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:76 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Gateway Priority pane, se...')
+                          SingleStyledText('In the Gateway Priority pane, se...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('6.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('6.')
+                          SingleStyledText('6')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click Send to save the configura...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:77 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click Send to save the configura...')
+                          SingleStyledText('Click Send to save the configura...')
+                Paragraph('Repeat this procedure for all th...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\unit_setup.rst:79 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('Repeat this procedure for all th...')
+                    MixedStyledText('Repeat this procedure for all th...', style='emphasis')   None:None <emphasis>
+                         > (0,0,1,0,1) emphasis
+                      SingleStyledText('Repeat this procedure for all th...')
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('		DVG Quick Start Guide, Release...')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('		DVG Quick Start Guide, Release...')
+        Tab('	')
+        Tab('	')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('2.1.  Port Configuration		5')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('2.1.  Port Configuration		5')
+        Field('2.1')
+          SingleStyledText('2.1')
+        SingleStyledText('.  ')
+        Field('Port Configuration')
+          SingleStyledText('Port Configuration')
+        Tab('	')
+        Tab('	')
+        Field('5')
+          SingleStyledText('5')
+---------------------------------- page 6 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('DVG Quick Start Guide, Release ....')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('DVG Quick Start Guide, Release ....')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('6		Chapter 2.  Unit Setup')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('6		Chapter 2.  Unit Setup')
+        Field('6')
+          SingleStyledText('6')
+        Tab('	')
+        Tab('	')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+        Field('2')
+          SingleStyledText('2')
+        SingleStyledText('.  ')
+        Field('Unit Setup')
+          SingleStyledText('Unit Setup')
+---------------------------------- page 7 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 3', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('Chapter 3')
+      MixedStyledText('Chapter ')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+      Field('3', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('3')
+  Paragraph('Connectivity Setup', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title
+         (0,0,0,0,2) body
+    Field('Connectivity Setup')
+      SingleStyledText('Connectivity Setup')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        StaticGroupedFlowables(id='%connectivity_setup')   None:None <start_of_file>
+          Section(id='%connectivity_setup#connectivity-setup')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:6 <section>
+               > (0,0,0,1,2) chapter
+            Paragraph('After the DVG units physical int...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:7 <paragraph>
+                 > (0,0,0,0,2) body
+              MixedStyledText('After the DVG units physical int...')
+                SingleStyledText('After the DVG units physical int...')
+            Section(id='%connectivity_setup#configuring-udp-vpn')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:11 <section>
+              Heading('3.1 Configuring UDP VPN')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:11 <title>
+                   > (0,0,0,1,2) heading level 2
+                     (0,0,0,0,2) other heading levels
+                  MixedStyledText('3.1 Configuring UDP VPN')
+                    SingleStyledText('3.1')
+                    SingleStyledText(' ')
+                    SingleStyledText('Configuring UDP VPN')
+              Paragraph('The UDP VPN connection is made u...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:12 <paragraph>
+                   > (0,0,0,0,2) body
+                MixedStyledText('The UDP VPN connection is made u...')
+                  SingleStyledText('The UDP VPN connection is made u...')
+              Section(id='%connectivity_setup#configuring-the-udp-vpn-server')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:16 <section>
+                Heading('3.1.1 Configuring the UDP VPN Se...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:16 <title>
+                     > (0,0,0,1,2) heading level 3
+                       (0,0,0,0,2) other heading levels
+                    MixedStyledText('3.1.1 Configuring the UDP VPN Se...')
+                      SingleStyledText('3.1.1')
+                      SingleStyledText(' ')
+                      SingleStyledText('Configuring the UDP VPN Server')
+                Paragraph('The UDP VPN Server is used to ho...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:17 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('The UDP VPN Server is used to ho...')
+                    SingleStyledText('The UDP VPN Server is used to ho...')
+                Paragraph('Procedure')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:19 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('Procedure')
+                    MixedStyledText('Procedure', style='strong')   None:None <strong>
+                         > (0,0,1,0,1) strong
+                      SingleStyledText('Procedure')
+                List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:21 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   None:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click on the InlineImage icon to...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:21 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                          InlineImage('_images/vpnAdd.png')   substitutions.rst:8 <image>
+                               x (0,0,0,0,2) inline image
+                               > fallback to default style
+                        MixedStyledText('Click on the InlineImage icon to...')
+                          SingleStyledText('Click on the ')
+                          InlineImage('_images/vpnAdd.png')   substitutions.rst:8 <image>
+                               x (0,0,0,0,2) inline image
+                               > fallback to default style
+                          SingleStyledText(' icon to open the Add VPN config...')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		7')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('		7')
+        Tab('	')
+        Tab('	')
+        Field('7')
+          SingleStyledText('7')
+---------------------------------- page 8 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        (continued) StaticGroupedFlowables(id='%connectivity_setup')   None:None <start_of_file>
+          (continued) Section(id='%connectivity_setup#connectivity-setup')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:6 <section>
+               > (0,0,0,1,2) chapter
+            (continued) Section(id='%connectivity_setup#configuring-udp-vpn')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:11 <section>
+              (continued) Section(id='%connectivity_setup#configuring-the-udp-vpn-server')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:16 <section>
+                (continued) List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:21 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  (continued) ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    (continued) StaticGroupedFlowables()   None:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Image('_images/add_udp_vpn.bmp')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:0 <image>
+                           > (0,0,0,0,2) image
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('2.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('2.')
+                          SingleStyledText('2')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Operation Mode pane, sele...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:26 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Operation Mode pane, sele...')
+                          SingleStyledText('In the Operation Mode pane, sele...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('3.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('3.')
+                          SingleStyledText('3')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Name pane, enter a name.')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:27 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Name pane, enter a name.')
+                          SingleStyledText('In the Name pane, enter a name.')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('4.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('4.')
+                          SingleStyledText('4')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the IP Address field enter an...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:28 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the IP Address field enter an...')
+                          SingleStyledText('In the IP Address field enter an...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('5.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('5.')
+                          SingleStyledText('5')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the URL pane, enter a URL for...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:29 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the URL pane, enter a URL for...')
+                          SingleStyledText('In the URL pane, enter a URL for...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('6.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('6.')
+                          SingleStyledText('6')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the interface pane, select fr...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:30 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the interface pane, select fr...')
+                          SingleStyledText('In the interface pane, select fr...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('7.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('7.')
+                          SingleStyledText('7')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click Send to save the configura...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:31 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click Send to save the configura...')
+                          SingleStyledText('Click Send to save the configura...')
+                      Paragraph('After the server has been config...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:33 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('After the server has been config...')
+                          SingleStyledText('After the server has been config...')
+              Section(id='%connectivity_setup#building-the-udp-vpn-client-files')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:36 <section>
+                Heading('3.1.2 Building the UDP VPN Clien...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:36 <title>
+                     > (0,0,0,1,2) heading level 3
+                       (0,0,0,0,2) other heading levels
+                    MixedStyledText('3.1.2 Building the UDP VPN Clien...')
+                      SingleStyledText('3.1.2')
+                      SingleStyledText(' ')
+                      SingleStyledText('Building the UDP VPN Client File...')
+                Paragraph('The UDP VPN client files are nee...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:37 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('The UDP VPN client files are nee...')
+                    SingleStyledText('The UDP VPN client files are nee...')
+                Paragraph('Procedure')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:40 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('Procedure')
+                    MixedStyledText('Procedure', style='strong')   None:None <strong>
+                         > (0,0,1,0,1) strong
+                      SingleStyledText('Procedure')
+                List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:42 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click the Tools tab, then click ...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:42 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click the Tools tab, then click ...')
+                          SingleStyledText('Click the Tools tab, then click ...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('2.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('2.')
+                          SingleStyledText('2')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('On the Remote Client line, selec...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:43 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('On the Remote Client line, selec...')
+                          SingleStyledText('On the Remote Client line, selec...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('3.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('3.')
+                          SingleStyledText('3')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click download to download the c...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:44 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click download to download the c...')
+                          SingleStyledText('Click download to download the c...')
+                Admonition()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <note>
+                     > (0,0,0,1,2) note admonition
+                       (0,0,0,0,2) admonition
+                  Paragraph('Note Client files need to be sav...')
+                       > (0,0,0,0,2) body
+                    MixedStyledText('Note Client files need to be sav...')
+                      MixedStyledText('Note', style='inline title')
+                           x (0,0,1,1,3) note admonition inline title
+                           > (0,0,1,0,3) admonition inline title
+                        SingleStyledText('Note')
+                      SingleStyledText(' ')
+                      MixedStyledText('Client files need to be saved on...')
+                        SingleStyledText('Client files need to be saved on...')
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('DVG Quick Start Guide, Release ....')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('DVG Quick Start Guide, Release ....')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('8		Chapter 3.  Connectivity Setu...')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('8		Chapter 3.  Connectivity Setu...')
+        Field('8')
+          SingleStyledText('8')
+        Tab('	')
+        Tab('	')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+        Field('3')
+          SingleStyledText('3')
+        SingleStyledText('.  ')
+        Field('Connectivity Setup')
+          SingleStyledText('Connectivity Setup')
+---------------------------------- page 9 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        (continued) StaticGroupedFlowables(id='%connectivity_setup')   None:None <start_of_file>
+          (continued) Section(id='%connectivity_setup#connectivity-setup')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:6 <section>
+               > (0,0,0,1,2) chapter
+            (continued) Section(id='%connectivity_setup#configuring-udp-vpn')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:11 <section>
+              Section(id='%connectivity_setup#uploading-the-udp-vpn-client')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:50 <section>
+                Heading('3.1.3 Uploading the UDP VPN Clie...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:50 <title>
+                     > (0,0,0,1,2) heading level 3
+                       (0,0,0,0,2) other heading levels
+                Paragraph('The UDP VPN client file needs to...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:51 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('The UDP VPN client file needs to...')
+                    SingleStyledText('The UDP VPN client file needs to...')
+                Paragraph('Procedure')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:53 <paragraph>
+                     > (0,0,0,0,2) body
+                  MixedStyledText('Procedure')
+                    MixedStyledText('Procedure', style='strong')   None:None <strong>
+                         > (0,0,1,0,1) strong
+                      SingleStyledText('Procedure')
+                List(style='enumerated')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:55 <enumerated_list>
+                     > (0,0,1,0,2) enumerated list
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('1.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('1.')
+                          SingleStyledText('1')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   None:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click the InlineImage icon to op...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:55 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                          InlineImage('_images/vpnAdd.png')   substitutions.rst:8 <image>
+                               x (0,0,0,0,2) inline image
+                               > fallback to default style
+                        MixedStyledText('Click the InlineImage icon to op...')
+                          SingleStyledText('Click the ')
+                          InlineImage('_images/vpnAdd.png')   substitutions.rst:8 <image>
+                               x (0,0,0,0,2) inline image
+                               > fallback to default style
+                          SingleStyledText(' icon to open the Add VPN config...')
+                      Image('_images/add_udp_vpn_client-1.bmp')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:0 <image>
+                           > (0,0,0,0,2) image
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('2.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('2.')
+                          SingleStyledText('2')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the In the Operation Mode pan...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:61 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the In the Operation Mode pan...')
+                          SingleStyledText('In the In the Operation Mode pan...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('3.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('3.')
+                          SingleStyledText('3')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Upload client pane, selec...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:62 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Upload client pane, selec...')
+                          SingleStyledText('In the Upload client pane, selec...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('4.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('4.')
+                          SingleStyledText('4')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click Upload to upload the clien...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:63 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click Upload to upload the clien...')
+                          SingleStyledText('Click Upload to upload the clien...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('5.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('5.')
+                          SingleStyledText('5')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the VPN name field, enter a l...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:64 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the VPN name field, enter a l...')
+                          SingleStyledText('In the VPN name field, enter a l...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('6.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('6.')
+                          SingleStyledText('6')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('In the Bind to Interface field, ...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:65 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('In the Bind to Interface field, ...')
+                          SingleStyledText('In the Bind to Interface field, ...')
+                  ListItem()
+                       x (0,0,1,0,4) enumerated list item
+                       > fallback to default style
+                    ListItemLabel('7.')
+                         > (0,0,1,0,6) enumerated list item label
+                           (0,0,0,0,2) list item label
+                        MixedStyledText('7.')
+                          SingleStyledText('7')
+                          SingleStyledText('.')
+                    StaticGroupedFlowables()   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:None <list_item>
+                         > (0,0,0,0,3) list item body
+                      Paragraph('Click the Click Here link to act...')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\connectivity_setup.rst:66 <paragraph>
+                           > (0,0,0,0,5) list item paragraph
+                             (0,0,0,0,2) body
+                        MixedStyledText('Click the Click Here link to act...')
+                          SingleStyledText('Click the Click Here link to act...')
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('		DVG Quick Start Guide, Release...')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('		DVG Quick Start Guide, Release...')
+        Tab('	')
+        Tab('	')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('3.1.  Configuring UDP VPN		9')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('3.1.  Configuring UDP VPN		9')
+        Field('3.1')
+          SingleStyledText('3.1')
+        SingleStyledText('.  ')
+        Field('Configuring UDP VPN')
+          SingleStyledText('Configuring UDP VPN')
+        Tab('	')
+        Tab('	')
+        Field('9')
+          SingleStyledText('9')
+---------------------------------- page 10 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('DVG Quick Start Guide, Release ....')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('DVG Quick Start Guide, Release ....')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('10		Chapter 3.  Connectivity Set...')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('10		Chapter 3.  Connectivity Set...')
+        Field('10')
+          SingleStyledText('10')
+        Tab('	')
+        Tab('	')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+        Field('3')
+          SingleStyledText('3')
+        SingleStyledText('.  ')
+        Field('Connectivity Setup')
+          SingleStyledText('Connectivity Setup')
+---------------------------------- page 11 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 4', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('Chapter 4')
+      MixedStyledText('Chapter ')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+      Field('4', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('4')
+  Paragraph('Stream Setup', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title
+         (0,0,0,0,2) body
+    Field('Stream Setup')
+      SingleStyledText('Stream Setup')
+  Paragraph('Chapter 4', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('Chapter 4')
+      MixedStyledText('Chapter ')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+      Field('4', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('4')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        StaticGroupedFlowables(id='%stream_setup')   None:None <start_of_file>
+          Section(id='%stream_setup#stream-setup')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\stream_setup.rst:6 <section>
+               > (0,0,0,1,2) chapter
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		11')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('		11')
+        Tab('	')
+        Tab('	')
+        Field('11')
+          SingleStyledText('11')
+---------------------------------- page 12 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+#### UpExpandingContainer('header')
+  StaticGroupedFlowables()
+    Header('DVG Quick Start Guide, Release ....')
+         > (0,0,0,0,2) header
+           (0,0,0,0,1) body
+      MixedStyledText('DVG Quick Start Guide, Release ....')
+        Field('DVG Quick Start Guide')
+          SingleStyledText('DVG Quick Start Guide')
+        SingleStyledText(', ')
+        Field('Release .01')
+          SingleStyledText('Release .01')
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('12		Chapter 4.  Stream Setup')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('12		Chapter 4.  Stream Setup')
+        Field('12')
+          SingleStyledText('12')
+        Tab('	')
+        Tab('	')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+        Field('4')
+          SingleStyledText('5')
+        SingleStyledText('.  ')
+        Field('Stream Setup')
+          SingleStyledText('Statistics and Monitoring')
+---------------------------------- page 13 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### FlowablesContainer('chapter title')
+  Paragraph('Chapter 5', style='body matter chapter label')
+       > (0,0,1,0,2) body matter chapter label
+         (0,0,0,0,2) body
+    MixedStyledText('Chapter 5')
+      MixedStyledText('Chapter ')
+        StringField('Chapter')
+          SingleStyledText('Chapter')
+        SingleStyledText(' ')
+      Field('5', style='number')
+           > (0,0,2,0,3) body matter chapter number
+        SingleStyledText('5')
+  Paragraph('Statistics and Monitoring', style='body matter chapter title')
+       > (0,0,1,0,2) body matter chapter title
+         (0,0,0,0,2) body
+    Field('Statistics and Monitoring')
+      SingleStyledText('Statistics and Monitoring')
+#### ChainedContainer('column1')
+  (continued) StaticGroupedFlowables()
+    (continued) DocumentTree()
+      (continued) StaticGroupedFlowables(id='mastertoc')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\index.rst:0 <compound>
+        StaticGroupedFlowables(id='%statistics_monitoring')   None:None <start_of_file>
+          Section(id='%statistics_monitoring#statistics-and-monitoring')   C:\Users\Jason Novich\OneDrive - O2PM\O2 Product Management\Clients\VideoFlow\tech writing\quick start guides\old\DVG Quick Start Guide\QSD\src\statistics_monitoring.rst:6 <section>
+               > (0,0,0,1,2) chapter
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		13')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('		13')
+        Tab('	')
+        Tab('	')
+        Field('13')
+          SingleStyledText('13')
+---------------------------------- page 15 ----------------------------------
+#### FootnoteContainer('footnotes')
+  StaticGroupedFlowables()
+#### DownExpandingContainer('floats')
+  StaticGroupedFlowables()
+#### ChainedContainer('column1')
+  StaticGroupedFlowables()
+    StaticGroupedFlowables()
+#### ChainedContainer('column2')
+  StaticGroupedFlowables()
+    StaticGroupedFlowables()
+#### DownExpandingContainer('footer')
+  StaticGroupedFlowables()
+    Footer('		15')
+         > (0,0,0,0,2) footer
+           (0,0,0,0,1) body
+      MixedStyledText('		15')
+        Tab('	')
+        Tab('	')
+        Field('15')
+          SingleStyledText('15')
